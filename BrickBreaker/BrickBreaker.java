@@ -191,10 +191,8 @@ class GamePlay extends JPanel implements KeyListener, ActionListener
 							{
 								ballYdir = -ballYdir;
 							}
-						}
-						
-					}
-					
+						}				
+					}					
 				}
 			}
 			
@@ -222,7 +220,7 @@ class GamePlay extends JPanel implements KeyListener, ActionListener
 	@Override
 	public void keyTyped(KeyEvent arg0) 
 	{
-		
+		//no need
 	}
 	
 	@Override
@@ -317,6 +315,5 @@ class BrickBreaker
 		frame.add(gamePlay);
 		
 	}
-
 }
 
